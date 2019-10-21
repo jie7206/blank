@@ -12,6 +12,7 @@ class ApplicationController < ActionController::Base
 
   # 读入网站所有的全局参数设定
   def load_global_variables
+    $site_logo = 'rails.png'
     $site_name = t(:site_name)
     $login_error_message = t(:login_err_msg)
     eval(File.open("#{Rails.root}/config/global_variables.txt",'r').read)
