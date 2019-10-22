@@ -7,8 +7,7 @@ module ApplicationHelper
 
   # 网站Logo图示
   def site_logo
-    raw('<span id="site_logo">'+
-      image_tag($site_logo, alt: site_name, align: "absmiddle")+'</span>')
+    raw image_tag($site_logo, id: "site_logo", alt: site_name, align: "absmiddle")
   end
 
   # 判断是否已登入
