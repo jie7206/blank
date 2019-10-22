@@ -1,11 +1,12 @@
 en:
-  site_name: 'My Blank Site'
-  login_prompt: 'Please input PIN code：'
-  login: 'Login'
-  login_err_msg: 'Your PIN code is not correct！'
-  logout: 'Logout'
-  home: 'Home'
-  home_title: 'My Homepage'
-  hello: "Hello! Welcome to my site ^_^"
+  site_name: My Blank Site
+  login_prompt: Please input PIN code：
+  login: Login
+  login_err_msg: Your PIN code is not correct！
+  logout: Logout
+  home: Home
+  home_title: My Homepage
+  hello: Hello! Welcome to my site ^_^
+  please_fix_errors: Please fix errors：
   copyright: Copyright
   contact_email: Contact Email

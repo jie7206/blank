@@ -51,9 +51,9 @@ small {
   font-size: 0.7em;
 }
 #site_logo {
-  width: 40px;
+  width: 50px;
   height: 45px;
-  border: 0px #000 solid;
+  border: 3px #000 solid;
   margin-right:0.5em;
 }
 #site_title a:hover {
@@ -81,5 +81,19 @@ small {
   background-color: #900;
   color: white;
   font-weight: bold;
-  padding: 0.2em;
+  padding: 0.4em;
+  margin-bottom: 0.5em;
+  ol {
+    margin: -0.3em 1.5em;
+    line-height: 1.7em;
+  }
+}
+.thead {
+  background-color: #F7DCB4;
+  text-align: center;
+}
+.tfoot {
+  background-color: #F7DCB4;
+  text-align: center;
+  padding-top: 0.25em;
 }
